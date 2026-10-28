@@ -1,0 +1,359 @@
+{
+    "sets": {
+        "set_sacred": {
+            "items": [
+                "collectables.menu.items.egg.eagle",
+                "collectables.menu.items.arrowhead.bone",
+                "collectables.menu.items.heirloom.brushBoar"
+            ],
+            "value": 70
+        },
+        "set_veteran": {
+            "items": [
+                "collectables.menu.items.coin.1792Qtr",
+                "collectables.menu.items.bottle.oldtomGin",
+                "collectables.menu.items.jewelry.onyxRing"
+            ],
+            "value": 80
+        },
+        "set_herbalist": {
+            "items": [
+                "collectables.menu.items.flower.bloodFlower",
+                "collectables.menu.items.flower.chocolateDaisy",
+                "collectables.menu.items.flower.creekPlum"
+            ],
+            "value": 60
+        },
+        "set_gold_panner": {
+            "items": [
+                "collectables.menu.items.jewelry.gldBngleBracelet",
+                "collectables.menu.items.coin.1797GldEag",
+                "weekly.items.pocket_watch_gold"
+            ],
+            "value": 90
+        },
+        "set_pearls": {
+            "items": [
+                "collectables.menu.items.jewelry.pearlBracelet",
+                "collectables.menu.items.jewelry.mthrPearlNecklace",
+                "collectables.menu.items.jewelry.pearlRing"
+            ],
+            "value": 90
+        },
+        "set_gambler": {
+            "items": [
+                "collectables.menu.items.swords.ace",
+                "collectables.menu.items.bottle.plymouthGin",
+                "collectables.menu.items.coin.1800GldDlr"
+            ],
+            "value": 95
+        },
+        "set_naturalist": {
+            "items": [
+                "collectables.menu.items.heirloom.combCherrywood",
+                "collectables.menu.items.egg.egret",
+                "collectables.menu.items.flower.bitterweed"
+            ],
+            "value": 70
+        },
+        "set_poacher": {
+            "items": [
+                "collectables.menu.items.jewelry.elkToothEarring",
+                "collectables.menu.items.heirloom.combTortoiseshell",
+                "collectables.menu.items.heirloom.hairpinIvory"
+            ],
+            "value": 80
+        },
+        "set_hunter": {
+            "items": [
+                "collectables.menu.items.arrowhead.slate",
+                "collectables.menu.items.egg.duck",
+                "weekly.items.animal_carcass_squirrel_perfect"
+            ],
+            "value": 50
+        },
+        "set_precious_stones": {
+            "items": [
+                "collectables.menu.items.jewelry.topazRing",
+                "collectables.menu.items.jewelry.grnetPostEarring",
+                "collectables.menu.items.heirloom.hairpinJade"
+            ],
+            "value": 85
+        },
+        "set_hairdresser": {
+            "items": [
+                "collectables.menu.items.heirloom.brushRosewood",
+                "collectables.menu.items.heirloom.combIvory",
+                "collectables.menu.items.heirloom.hairpinEbony"
+            ],
+            "value": 70
+        },
+        "set_whiskey": {
+            "items": [
+                "collectables.menu.items.bottle.tennWhiskey",
+                "collectables.menu.items.bottle.irishWhiskey",
+                "collectables.menu.items.bottle.scotchWhiskey"
+            ],
+            "value": 65
+        },
+        "set_cheater": {
+            "items": [
+                "collectables.menu.items.wands.queen",
+                "collectables.menu.items.cups.king",
+                "collectables.menu.items.pentacles.ace"
+            ],
+            "value": 65
+        },
+        "set_loser": {
+            "items": [
+                "collectables.menu.items.cups.two",
+                "collectables.menu.items.pentacles.two",
+                "collectables.menu.items.swords.two"
+            ],
+            "value": 65
+        },
+        "set_gentleman": {
+            "items": [
+                "collectables.menu.items.jewelry.emeraldRing",
+                "collectables.menu.items.bottle.londryGin",
+                "collectables.menu.items.coin.1794SlvDlr"
+            ],
+            "value": 95
+        },
+        "set_belle": {
+            "items": [
+                "collectables.menu.items.heirloom.combBoxwood",
+                "collectables.menu.items.jewelry.porcelainNecklace",
+                "collectables.menu.items.jewelry.pearlEarring"
+            ],
+            "value": 85
+        },
+        "set_looter": {
+            "items": [
+                "collectables.menu.items.arrowhead.crude",
+                "collectables.menu.items.coin.1792Nickel",
+                "weekly.items.goldtooth"
+            ],
+            "value": 75
+        },
+        "set_ancient_tools": {
+            "items": [
+                "collectables.menu.items.arrowhead.obsidian",
+                "collectables.menu.items.heirloom.brushHorsehair"
+            ],
+            "value": 75
+        },
+        "set_exotics": {
+            "items": [
+                "collectables.menu.items.egg.loon",
+                "collectables.menu.items.flower.agarita",
+                "collectables.menu.items.egg.spoonbill"
+            ],
+            "value": 65
+        },
+        "set_1800_coins": {
+            "items": [
+                "collectables.menu.items.coin.1800FiveDlr",
+                "collectables.menu.items.coin.1800HlfDime",
+                "collectables.menu.items.coin.1800GldQtr"
+            ],
+            "value": 100
+        },
+        "set_warrior_tokens": {
+            "items": [
+                "collectables.menu.items.swords.knight",
+                "collectables.menu.items.arrowhead.quartz",
+                "collectables.menu.items.jewelry.coralRing"
+            ],
+            "value": 85
+        },
+        "set_squire": {
+            "items": [
+                "collectables.menu.items.pentacles.page",
+                "collectables.menu.items.wands.knight",
+                "collectables.menu.items.swords.king"
+            ],
+            "value": 65
+        },
+        "set_saint_denis": {
+            "items": [
+                "collectables.menu.items.bottle.cognac",
+                "collectables.menu.items.jewelry.rudyDnglEarring",
+                "collectables.menu.items.jewelry.frenchDmndRing"
+            ],
+            "value": 85
+        },
+        "set_fortune_teller": {
+            "items": [
+                "collectables.menu.items.cups.ace",
+                "collectables.menu.items.wands.ace",
+                "collectables.menu.items.bottle.cyprusBrandy"
+            ],
+            "value": 60
+        },
+        "set_guarma": {
+            "items": [
+                "collectables.menu.items.bottle.caribRum",
+                "collectables.menu.items.jewelry.blckPearlNecklace",
+                "collectables.menu.items.jewelry.turquoiseBracelet"
+            ],
+            "value": 85
+        },
+        "set_bowman": {
+            "items": [
+                "collectables.menu.items.arrowhead.flint",
+                "collectables.menu.items.arrowhead.raw",
+                "collectables.menu.items.arrowhead.agate"
+            ],
+            "value": 75
+        },
+        "set_royal": {
+            "items": [
+                "collectables.menu.items.jewelry.emeraldEarring",
+                "collectables.menu.items.jewelry.qnDmndEarring",
+                "collectables.menu.items.swords.queen"
+            ],
+            "value": 85
+        },
+        "set_witch_hunt": {
+            "items": [
+                "collectables.menu.items.egg.vulture",
+                "collectables.menu.items.flower.cardinalFlower",
+                "collectables.menu.items.arrowhead.splintered"
+            ],
+            "value": 75
+        },
+        "set_night_watch": {
+            "items": [
+                "collectables.menu.items.jewelry.moonRing",
+                "collectables.menu.items.flower.wisteria",
+                "collectables.menu.items.egg.hawk"
+            ],
+            "value": 80
+        },
+        "set_foundation": {
+            "items": [
+                "collectables.menu.items.arrowhead.feldspar",
+                "collectables.menu.items.jewelry.dmndPendtEarring",
+                "collectables.menu.items.jewelry.coralDnglEarring"
+            ],
+            "value": 85
+        },
+        "set_jeweler": {
+            "items": [
+                "collectables.menu.items.jewelry.turquoiseRing",
+                "collectables.menu.items.jewelry.grnetBracelet",
+                "collectables.menu.items.jewelry.topazNecklace"
+            ],
+            "value": 95
+        },
+        "set_penny": {
+            "items": [
+                "collectables.menu.items.coin.1789Pny",
+                "collectables.menu.items.coin.1787CentTkn",
+                "collectables.menu.items.coin.1796HlfPny"
+            ],
+            "value": 100
+        },
+        "set_festive_feast": {
+            "items": [
+                "collectables.menu.items.egg.goose",
+                "collectables.menu.items.bottle.cognac",
+                "weekly.items.consumable_plump_bird_thyme_cooked"
+            ],
+            "value": 50
+        },
+        "set_new_year": {
+            "items": [
+                "collectables.menu.items.wands.ace",
+                "collectables.menu.items.bottle.scotchWhiskey",
+                "weekly.items.pocket_watch_platinum"
+            ],
+            "value": 65
+        },
+        "set_lovers": {
+            "items": [
+                "collectables.menu.items.flower.chocolateDaisy",
+                "collectables.menu.items.jewelry.ylwgldDmndRing",
+                "collectables.menu.items.cups.two"
+            ],
+            "value": 75
+        },
+        "set_egg_hunt": {
+            "items": [
+                "collectables.menu.items.egg.duck",
+                "collectables.menu.items.egg.heron",
+                "collectables.menu.items.egg.goose"
+            ],
+            "value": 50
+        },
+        "set_beasts_of_prey": {
+            "items": [
+                "collectables.menu.items.fossil.toothSerrated"
+            ],
+            "value": 85
+        },
+        "set_tooth_and_nail": {
+            "items": [
+                "weekly.items.badger_claw"
+            ],
+            "value": 65
+        },
+        "set_shot_in_the_dark": {
+            "items": [
+                "weekly.items.opossum_fur_pristine",
+                "weekly.items.raccoon_fur_pristine",
+                "weekly.items.owl_feather"
+            ],
+            "value": 40
+        },
+        "set_black_and_white": {
+            "items": [
+                "weekly.items.skunk_fur_pristine",
+                "weekly.items.badger_pelt_pristine",
+                "weekly.items.seagull_feather"
+            ],
+            "value": 30
+        },
+        "set_jurassic": {
+            "items": [
+                "collectables.menu.items.fossil.toothTrex",
+                "collectables.menu.items.fossil.tailSpike",
+                "collectables.menu.items.fossil.browHorn"
+            ],
+            "value": 180
+        },
+        "set_ancient_wood": {
+            "items": [
+                "collectables.menu.items.fossil.petWood",
+                "collectables.menu.items.fossil.petWoodRainbow",
+                "collectables.menu.items.fossil.petWoodYellowCat"
+            ],
+            "value": 110
+        },
+        "set_deep_blue": {
+            "items": [
+                "collectables.menu.items.fossil.tullyMonster",
+                "collectables.menu.items.fossil.cephalopod",
+                "weekly.items.fish_rock_bass"
+            ],
+            "value": 95
+        },
+        "set_arthropod": {
+            "items": [
+                "collectables.menu.items.fossil.seaScorpion",
+                "collectables.menu.items.fossil.trilobiteCrypto",
+                "weekly.items.animal_carcass_crab_perfect"
+            ],
+            "value": 90
+        },
+        "set_bite_sized": {
+            "items": [
+                "weekly.items.cougar_fang",
+                "collectables.menu.items.fossil.toothMega",
+                "weekly.items.alligator_tooth"
+            ],
+            "value": 75
+        }
+    }
+}

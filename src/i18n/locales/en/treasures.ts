@@ -1,0 +1,35 @@
+// treasures.ts — 29 keys
+
+const treasures = {
+    "treasures.map.bards_crossing": "Bard's Crossing",
+    "treasures.map.benedict_point": "Benedict Point",
+    "treasures.map.blackbone_forest": "Blackbone Forest",
+    "treasures.map.bluewater_marsh": "Bluewater Marsh",
+    "treasures.map.brandywine": "Brandywine Drop",
+    "treasures.map.burnt_town": "Burned Town",
+    "treasures.map.calumet_ravine": "Calumet Ravine",
+    "treasures.map.cattail_pond": "Cattail Pond",
+    "treasures.map.citadel_rock": "Citadel Rock",
+    "treasures.map.civil_war_field": "Civil War Battlefield",
+    "treasures.map.cumberland_forest_west": "Cumberland Forest West",
+    "treasures.map.dakota_river_bend": "Dakota River Bend",
+    "treasures.map.diablo_ridge": "Diablo Ridge",
+    "treasures.map.east_watsons": "East Watsons",
+    "treasures.map.gaptooth_breach": "Gaptooth Breach",
+    "treasures.map.hanging_rock": "Hanging Rock",
+    "treasures.map.hawkseye_creek": "Hawks Eye Creek",
+    "treasures.map.hennigans_stead": "Hennigan's Stead (Central)",
+    "treasures.map.kamassa_river": "Kamassa River",
+    "treasures.map.lake_isabella": "Lake Isabella",
+    "treasures.map.little_creek": "Little Creek",
+    "treasures.map.north_clingman": "North Clingman",
+    "treasures.map.north_macfarlanes": "Hennigan's Stead (North)",
+    "treasures.map.north_ridgewood": "North Ridgewood",
+    "treasures.map.north_tumbleweed": "North Tumbleweed",
+    "treasures.map.ocreaghs_run": "O'Creagh's Run",
+    "treasures.map.san_luis_shore": "San Luis Shore",
+    "treasures.map.south_roanoke": "Southern Roanoke",
+    "treasures.map.west_hill_haven": "West Hill Haven",
+};
+
+export default treasures;

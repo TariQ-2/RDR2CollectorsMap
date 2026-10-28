@@ -1,0 +1,76 @@
+{
+    "moonshiner": {
+        "mshine_flavor_agarita_sunrise": [
+            "consumable_strawberries_can",
+            "consumable_herb_evergreen_huckleberry",
+            "collectables.menu.items.flower.agarita"
+        ],
+        "mshine_flavor_apple_berry_crumb": [
+            "consumable_apple",
+            "consumable_herb_black_berry",
+            "consumable_herb_vanilla_flower"
+        ],
+        "mshine_flavor_berry_cobbler": [
+            "consumable_peaches_can",
+            "consumable_herb_red_raspberry",
+            "consumable_peach"
+        ],
+        "mshine_flavor_berry_mint": [
+            "consumable_strawberries_can",
+            "consumable_herb_black_berry",
+            "consumable_herb_wild_mint"
+        ],
+        "mshine_flavor_evergreen": [
+            "consumable_herb_evergreen_huckleberry",
+            "consumable_herb_wintergreen_berry",
+            "consumable_herb_alaskan_ginseng"
+        ],
+        "mshine_flavor_poison_poppys": [
+            "consumable_herb_prairie_poppy",
+            "consumable_herb_oleander_sage",
+            "collectables.menu.items.bottle.cyprusBrandy"
+        ],
+        "mshine_flavor_spiced_island": [
+            "consumable_apricots_can",
+            "consumable_herb_currant",
+            "collectables.menu.items.bottle.caribRum"
+        ],
+        "mshine_flavor_tropical_punch": [
+            "consumable_pineapples_can",
+            "consumable_pear",
+            "consumable_herb_vanilla_flower"
+        ],
+        "mshine_flavor_wild_cider": [
+            "consumable_apple",
+            "consumable_herb_alaskan_ginseng",
+            "consumable_herb_currant"
+        ],
+        "mshine_flavor_wild_creek": [
+            "consumable_herb_wild_mint",
+            "consumable_herb_vanilla_flower",
+            "collectables.menu.items.flower.creekPlum"
+        ]
+    },
+    "naturalist": {
+        "provision_trinket_beaver_tooth": [
+            "collectables.menu.items.jewelry.turqStudEarring",
+            "provision_squirrel_tooth"
+        ],
+        "provision_trinket_buck_antler": [
+            "collectables.menu.items.jewelry.topazNecklace",
+            "provision_buck_antlers"
+        ],
+        "provision_trinket_javelina_tusk": [
+            "collectables.menu.items.jewelry.carvedBracelet",
+            "provision_javelina_tusk"
+        ],
+        "provision_trinket_ram_horn": [
+            "collectables.menu.items.jewelry.onyxRing",
+            "provision_ram_horn"
+        ],
+        "provision_trinket_snowy_egret": [
+            "collectables.menu.items.jewelry.amethystNecklace",
+            "provision_egret_feather"
+        ]
+    }
+}

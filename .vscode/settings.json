@@ -1,0 +1,7 @@
+{
+    // Source files are LF-only: CRLF inside multi-line string literals caused
+    // SSR/client hydration mismatches (CR was rewritten to LF server-side).
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "vscord.enable": true
+}

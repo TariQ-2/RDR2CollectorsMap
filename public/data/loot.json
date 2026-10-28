@@ -1,0 +1,246 @@
+{
+    "categories": {
+        "arrowhead": [
+            "collectibleArrowheadsBuriedAll"
+        ],
+        "arrowheadBuriedMounds": [
+            "collectibleArrowheadsBuriedMounds"
+        ],
+        "coin": [
+            "collectibleCoinsBuriedAll"
+        ],
+        "fossilsRandom": [
+            "collectibleItemsFossilsBuriedSnow",
+            "collectibleItemsFossilsBuriedDirtSnow",
+            "collectibleItemsFossilsBuriedMud",
+            "collectibleItemsFossilsBuriedWater"
+        ],
+        "fossilsBuriedSnow": [
+            "collectibleItemsFossilsBuriedSnow"
+        ],
+        "fossilsBuriedDirtSnow": [
+            "collectibleItemsFossilsBuriedDirtSnow"
+        ],
+        "fossilsBuriedMud": [
+            "collectibleItemsFossilsBuriedMud"
+        ],
+        "fossilsBuriedWater": [
+            "collectibleItemsFossilsBuriedWater"
+        ],
+        "heirloomsRandom": [
+            "collectibleHrlmsBuriedMounds"
+        ],
+        "jewelryRandom": [
+            "collectibleJewelryAll"
+        ],
+        "randomBuriedChest": [
+            "collectibleItemsBuriedFlatGround"
+        ],
+        "randomBuriedShallow": [
+            "collectibleItemsBuriedFlatGround",
+            "collectibleItemsBuriedFlatGroundShallow"
+        ],
+        "randomBuriedMounds": [
+            "collectibleItemsBuriedMounds"
+        ]
+    },
+    "loot": {
+        "collectibleItemsFossilsBuriedSnow": {
+            "collectibleFossilsCommon": 0.35,
+            "collectibleFossilsUncommon": 0.35,
+            "collectibleFossilsRare": 0.3
+        },
+        "collectibleItemsFossilsBuriedDirtSnow": {
+            "collectibleFossilsCommon": 0.4,
+            "collectibleFossilsUncommon": 0.4,
+            "collectibleFossilsRare": 0.2
+        },
+        "collectibleItemsFossilsBuriedMud": {
+            "collectibleFossilsCommon": 0.75,
+            "collectibleFossilsUncommon": 0.25
+        },
+        "collectibleItemsFossilsBuriedWater": {
+            "collectibleFossilsCommon": 0.5,
+            "collectibleFossilsUncommon": 0.4,
+            "collectibleFossilsRare": 0.1
+        },
+        "collectibleItemsFossilsBuriedSnowNormal": {
+            "collectibleFossilsCommon": 0.6,
+            "collectibleFossilsUncommon": 0.4
+        },
+        "collectibleItemsFossilsBuriedDirtSnowNormal": {
+            "collectibleFossilsCommon": 0.6,
+            "collectibleFossilsUncommon": 0.4
+        },
+        "collectibleItemsFossilsBuriedMudNormal": {
+            "collectibleFossilsCommon": 0.6,
+            "collectibleFossilsUncommon": 0.4
+        },
+        "collectibleItemsFossilsBuriedWaterNormal": {
+            "collectibleFossilsCommon": 0.6,
+            "collectibleFossilsUncommon": 0.4
+        },
+        "collectibleItemsBuriedMounds": {
+            "collectibleArrowheadsBuriedMounds": 0.6,
+            "collectibleJewelryAll": 0.1,
+            "collectibleHrlmsBuriedMounds": 0.3
+        },
+        "collectibleItemsBuriedFlatGround": {
+            "collectibleItemsBuriedFlatGroundShallow": 0.5,
+            "collectibleJewelryAll": 0.5
+        },
+        "collectibleItemsBuriedFlatGroundShallow": {
+            "collectibleArrowheadsCommon": 0.25,
+            "collectibleArrowheadsUncommon": 0.2,
+            "collectibleArrowheadsRare": 0.1,
+            "collectibleCoinsCommon": 0.2,
+            "collectibleCoinsUncommon": 0.15,
+            "collectibleCoinsRare": 0.1
+        },
+        "collectibleArrowheadsBuriedAll": {
+            "collectibleArrowheadsCommon": 0.6,
+            "collectibleArrowheadsUncommon": 0.3,
+            "collectibleArrowheadsRare": 0.1
+        },
+        "collectibleArrowheadsBuriedMounds": {
+            "collectibleArrowheadsCommon": 0.7,
+            "collectibleArrowheadsUncommon": 0.3
+        },
+        "collectibleArrowheadsCommon": {
+            "collectables.menu.items.arrowhead.chipped": 0.2,
+            "collectables.menu.items.arrowhead.crude": 0.2,
+            "collectables.menu.items.arrowhead.raw": 0.2,
+            "collectables.menu.items.arrowhead.rough": 0.2,
+            "collectables.menu.items.arrowhead.splintered": 0.2
+        },
+        "collectibleArrowheadsUncommon": {
+            "collectables.menu.items.arrowhead.bone": 0.25,
+            "collectables.menu.items.arrowhead.feldspar": 0.25,
+            "collectables.menu.items.arrowhead.flint": 0.25,
+            "collectables.menu.items.arrowhead.slate": 0.25
+        },
+        "collectibleArrowheadsRare": {
+            "collectables.menu.items.arrowhead.agate": 0.35,
+            "collectables.menu.items.arrowhead.obsidian": 0.35,
+            "collectables.menu.items.arrowhead.quartz": 0.3
+        },
+        "collectibleCoinsBuriedAll": {
+            "collectibleCoinsCommon": 0.6,
+            "collectibleCoinsUncommon": 0.3,
+            "collectibleCoinsRare": 0.1
+        },
+        "collectibleCoinsCommon": {
+            "collectables.menu.items.coin.1792Qtr": 0.2,
+            "collectables.menu.items.coin.1792Nickel": 0.2,
+            "collectables.menu.items.coin.1789Pny": 0.2,
+            "collectables.menu.items.coin.1795HlfEag": 0.2,
+            "collectables.menu.items.coin.1796HlfPny": 0.2
+        },
+        "collectibleCoinsUncommon": {
+            "collectables.menu.items.coin.1787CentTkn": 0.2,
+            "collectables.menu.items.coin.1794SlvDlr": 0.2,
+            "collectables.menu.items.coin.1798SlvDlr": 0.2,
+            "collectables.menu.items.coin.1800FiveDlr": 0.2,
+            "collectables.menu.items.coin.1800HlfDime": 0.2
+        },
+        "collectibleCoinsRare": {
+            "collectables.menu.items.coin.1700NyTkn": 0.2,
+            "collectables.menu.items.coin.1792LibQtr": 0.2,
+            "collectables.menu.items.coin.1797GldEag": 0.2,
+            "collectables.menu.items.coin.1800GldDlr": 0.2,
+            "collectables.menu.items.coin.1800GldQtr": 0.2
+        },
+        "collectibleFossilsCommon": {
+            "collectables.menu.items.fossil.coral": 0.14,
+            "collectables.menu.items.fossil.bivalve": 0.14,
+            "collectables.menu.items.fossil.brachiopod": 0.14,
+            "collectables.menu.items.fossil.cephalopod": 0.14,
+            "collectables.menu.items.fossil.neo": 0.14,
+            "collectables.menu.items.fossil.stone": 0.15,
+            "collectables.menu.items.fossil.petWood": 0.15
+        },
+        "collectibleFossilsUncommon": {
+            "collectables.menu.items.fossil.petWoodRainbow": 0.14,
+            "collectables.menu.items.fossil.seaLily": 0.14,
+            "collectables.menu.items.fossil.seaScorpion": 0.14,
+            "collectables.menu.items.fossil.trilobiteCrypto": 0.14,
+            "collectables.menu.items.fossil.trilobiteIso": 0.14,
+            "collectables.menu.items.fossil.tullyMonster": 0.15,
+            "collectables.menu.items.fossil.petWoodYellowCat": 0.15
+        },
+        "collectibleFossilsRare": {
+            "collectables.menu.items.fossil.browHorn": 0.165,
+            "collectables.menu.items.fossil.toothTrex": 0.165,
+            "collectables.menu.items.fossil.toothMega": 0.165,
+            "collectables.menu.items.fossil.toothSerrated": 0.165,
+            "collectables.menu.items.fossil.tailSpike": 0.17,
+            "collectables.menu.items.fossil.toeClaw": 0.17
+        },
+        "collectibleHrlmsBuriedMounds": {
+            "collectables.menu.items.heirloom.hairpinWooden": 0.2,
+            "collectables.menu.items.heirloom.hairpinEbony": 0.2,
+            "collectables.menu.items.heirloom.hairpinIvory": 0.2,
+            "collectables.menu.items.heirloom.hairpinJade": 0.2,
+            "collectables.menu.items.heirloom.hairpinMetal": 0.2
+        },
+        "collectibleJewelryAll": {
+            "collectibleJewelryRings01": 0.125,
+            "collectibleJewelryRings02": 0.125,
+            "collectibleJewelryEarrings01": 0.125,
+            "collectibleJewelryEarrings02": 0.125,
+            "collectibleJewelryNecklaces": 0.25,
+            "collectibleJewelryBracelets": 0.25
+        },
+        "collectibleJewelryRings01": {
+            "collectables.menu.items.jewelry.moonRing": 0.2,
+            "collectables.menu.items.jewelry.whtgldDmndRing": 0.2,
+            "collectables.menu.items.jewelry.ylwgldDmndRing": 0.15,
+            "collectables.menu.items.jewelry.frenchDmndRing": 0.15,
+            "collectables.menu.items.jewelry.turquoiseRing": 0.15,
+            "collectables.menu.items.jewelry.topazRing": 0.15
+        },
+        "collectibleJewelryRings02": {
+            "collectables.menu.items.jewelry.pearlRing": 0.2,
+            "collectables.menu.items.jewelry.onyxRing": 0.2,
+            "collectables.menu.items.jewelry.emeraldRing": 0.2,
+            "collectables.menu.items.jewelry.persTurqRing": 0.2,
+            "collectables.menu.items.jewelry.coralRing": 0.2
+        },
+        "collectibleJewelryEarrings01": {
+            "collectables.menu.items.jewelry.emeraldEarring": 0.2,
+            "collectables.menu.items.jewelry.qnDmndEarring": 0.2,
+            "collectables.menu.items.jewelry.whtDmndEarring": 0.15,
+            "collectables.menu.items.jewelry.rudyDnglEarring": 0.15,
+            "collectables.menu.items.jewelry.dropEarring": 0.15,
+            "collectables.menu.items.jewelry.coralDnglEarring": 0.15
+        },
+        "collectibleJewelryEarrings02": {
+            "collectables.menu.items.jewelry.turqStudEarring": 0.2,
+            "collectables.menu.items.jewelry.elkToothEarring": 0.2,
+            "collectables.menu.items.jewelry.grnetPostEarring": 0.2,
+            "collectables.menu.items.jewelry.dmndPendtEarring": 0.2,
+            "collectables.menu.items.jewelry.pearlEarring": 0.2
+        },
+        "collectibleJewelryBracelets": {
+            "collectables.menu.items.jewelry.carvedBracelet": 0.15,
+            "collectables.menu.items.jewelry.gldBngleBracelet": 0.15,
+            "collectables.menu.items.jewelry.pearlBracelet": 0.15,
+            "collectables.menu.items.jewelry.grnetBracelet": 0.15,
+            "collectables.menu.items.jewelry.turquoiseBracelet": 0.1,
+            "collectables.menu.items.jewelry.sphrBngleBracelet": 0.1,
+            "collectables.menu.items.jewelry.sphrBracelet": 0.1,
+            "collectables.menu.items.jewelry.dmndBngleBracelet": 0.1
+        },
+        "collectibleJewelryNecklaces": {
+            "collectables.menu.items.jewelry.blckPearlNecklace": 0.15,
+            "collectables.menu.items.jewelry.topazNecklace": 0.15,
+            "collectables.menu.items.jewelry.mthrPearlNecklace": 0.1,
+            "collectables.menu.items.jewelry.gldPendtNecklace": 0.1,
+            "collectables.menu.items.jewelry.amethystNecklace": 0.1,
+            "collectables.menu.items.jewelry.porcelainNecklace": 0.1,
+            "collectables.menu.items.jewelry.slvrPearlNecklace": 0.1,
+            "collectables.menu.items.jewelry.gldCrossNecklace": 0.1,
+            "collectables.menu.items.jewelry.gldPearlNecklace": 0.1
+        }
+    }
+}

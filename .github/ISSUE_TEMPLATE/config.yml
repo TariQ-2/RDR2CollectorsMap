@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord Community
+    url: https://discord.gg/your-invite-link
+    about: Ask questions and chat with the community in real-time.
+  - name: Documentation
+    url: https://github.com/TariQ-2/RDR2CollectorsMap/wiki
+    about: Read the wiki for guides and troubleshooting.

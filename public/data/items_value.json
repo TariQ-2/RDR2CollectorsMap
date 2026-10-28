@@ -1,0 +1,289 @@
+[
+    {
+        "category": "coastal",
+        "price": 217,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.fossil.bivalve",    "price": 14,    "enumHash": 972001444},
+            {"itemId": "collectables.menu.items.fossil.brachiopod", "price": 14.5,  "enumHash": 1051711290},
+            {"itemId": "collectables.menu.items.fossil.petWood",    "price": 15.5,  "enumHash": -925996336},
+            {"itemId": "collectables.menu.items.fossil.cephalopod", "price": 15,    "enumHash": -564862271},
+            {"itemId": "collectables.menu.items.fossil.stone",      "price": 15.75, "enumHash": -413279196},
+            {"itemId": "collectables.menu.items.fossil.neo",        "price": 17.5,  "enumHash": -282219948},
+            {"itemId": "collectables.menu.items.fossil.coral",      "price": 16.25, "enumHash": 698668228}
+        ]
+    },
+    {
+        "category": "oceanic",
+        "price": 288.5,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.fossil.trilobiteIso",      "price": 21.5,  "enumHash": 866218183},
+            {"itemId": "collectables.menu.items.fossil.seaLily",           "price": 20,    "enumHash": 1287909434},
+            {"itemId": "collectables.menu.items.fossil.trilobiteCrypto",   "price": 19,    "enumHash": -1695562218},
+            {"itemId": "collectables.menu.items.fossil.petWoodYellowCat",  "price": 19.5,  "enumHash": -1471980896},
+            {"itemId": "collectables.menu.items.fossil.petWoodRainbow",    "price": 18.5,  "enumHash": -488648162},
+            {"itemId": "collectables.menu.items.fossil.seaScorpion",       "price": 22.75, "enumHash": -399160143},
+            {"itemId": "collectables.menu.items.fossil.tullyMonster",      "price": 23,    "enumHash": 212472674}
+        ]
+    },
+    {
+        "category": "megafauna",
+        "price": 321,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.fossil.toothSerrated", "price": 24.5,  "enumHash": 2031475177},
+            {"itemId": "collectables.menu.items.fossil.toeClaw",       "price": 25.5,  "enumHash": -1962391614},
+            {"itemId": "collectables.menu.items.fossil.tailSpike",     "price": 27.5,  "enumHash": -1901964465},
+            {"itemId": "collectables.menu.items.fossil.browHorn",      "price": 28.25, "enumHash": -1574273736},
+            {"itemId": "collectables.menu.items.fossil.toothTrex",     "price": 30,    "enumHash": -669648037},
+            {"itemId": "collectables.menu.items.fossil.toothMega",     "price": 24.75, "enumHash": 1081670855}
+        ]
+    },
+    {
+        "category": "flower",
+        "price": 155.5,
+        "itemsList": [
+            { "itemId": "collectables.menu.items.flower.texasBlueBonnet", "price": 8.5,   "enumHash": 2605459 },
+            { "itemId": "collectables.menu.items.flower.bitterweed",      "price": 8.5,   "enumHash": 1071702353 },
+            { "itemId": "collectables.menu.items.flower.agarita",         "price": 10.5,  "enumHash": 1338475089 },
+            { "itemId": "collectables.menu.items.flower.wildRhubarb",     "price": 7.25,  "enumHash": 1602215994 },
+            { "itemId": "collectables.menu.items.flower.cardinalFlower",  "price": 7,     "enumHash": -1957546791 },
+            { "itemId": "collectables.menu.items.flower.creekPlum",       "price": 10.2,  "enumHash": -1776738559 },
+            { "itemId": "collectables.menu.items.flower.bloodFlower",     "price": 10.25, "enumHash": -1183422860 },
+            { "itemId": "collectables.menu.items.flower.chocolateDaisy",  "price": 7.25,  "enumHash": -589542533 },
+            { "itemId": "collectables.menu.items.flower.wisteria",        "price": 8.25,  "enumHash": -396757268 }
+        ]
+    },
+    {
+        "category": "cups",
+        "price": 240.5,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.cups.ace",     "price": 12,    "enumHash": -163158070,  "icon": "①"},
+            {"itemId": "collectables.menu.items.cups.two",     "price": 7.75,  "enumHash": -1503977063, "icon": "②"},
+            {"itemId": "collectables.menu.items.cups.three",   "price": 7.75,  "enumHash": 780474809,   "icon": "③"},
+            {"itemId": "collectables.menu.items.cups.four",    "price": 7.75,  "enumHash": 2002017787,  "icon": "④"},
+            {"itemId": "collectables.menu.items.cups.five",    "price": 8,     "enumHash": -1937978205, "icon": "⑤"},
+            {"itemId": "collectables.menu.items.cups.six",     "price": 8,     "enumHash": -906665413,  "icon": "⑥"},
+            {"itemId": "collectables.menu.items.cups.seven",   "price": 7.5,   "enumHash": -166875730,  "icon": "⑦"},
+            {"itemId": "collectables.menu.items.cups.eight",   "price": 7.75,  "enumHash": -1485299891, "icon": "⑧"},
+            {"itemId": "collectables.menu.items.cups.nine",    "price": 7.75,  "enumHash": -518056479,  "icon": "⑨"},
+            {"itemId": "collectables.menu.items.cups.ten",     "price": 7.5,   "enumHash": 113535009,   "icon": "⑩"},
+            {"itemId": "collectables.menu.items.cups.page",    "price": 8.5,   "enumHash": 1299302457,  "icon": "♙"},
+            {"itemId": "collectables.menu.items.cups.knight",  "price": 9,     "enumHash": 125940045,   "icon": "♘"},
+            {"itemId": "collectables.menu.items.cups.queen",   "price": 10,    "enumHash": -2083620375, "icon": "♕"},
+            {"itemId": "collectables.menu.items.cups.king",    "price": 11,    "enumHash": 1796104920,  "icon": "♔"}
+        ]
+    },
+    {
+        "category": "swords",
+        "price": 286.5,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.swords.ace",       "price": 14.5,      "enumHash": 1367469686},
+            {"itemId": "collectables.menu.items.swords.two",       "price": 9.5,       "enumHash": -1634516097},
+            {"itemId": "collectables.menu.items.swords.three",     "price": 9.25,      "enumHash": -322231256},
+            {"itemId": "collectables.menu.items.swords.four",      "price": 9.25,      "enumHash": -173673073},
+            {"itemId": "collectables.menu.items.swords.five",      "price": 9.25,      "enumHash": 1421431411},
+            {"itemId": "collectables.menu.items.swords.six",       "price": 9,         "enumHash": -2079764912},
+            {"itemId": "collectables.menu.items.swords.seven",     "price": 9,         "enumHash": -581875397},
+            {"itemId": "collectables.menu.items.swords.eight",     "price": 9,         "enumHash": -172592270},
+            {"itemId": "collectables.menu.items.swords.nine",      "price": 9.25,      "enumHash": 2044772006},
+            {"itemId": "collectables.menu.items.swords.ten",       "price": 9,         "enumHash": 1926107175},
+            {"itemId": "collectables.menu.items.swords.page",      "price": 10,        "enumHash": -1533342244},
+            {"itemId": "collectables.menu.items.swords.knight",    "price": 11,        "enumHash": -2098877713},
+            {"itemId": "collectables.menu.items.swords.queen",     "price": 12,        "enumHash": 1841524557},
+            {"itemId": "collectables.menu.items.swords.king",      "price": 13.25,     "enumHash": -2132509733}
+        ]
+    },
+    {
+        "category": "wands",
+        "price": 239,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.wands.ace", "price": 12, "enumHash": -1968768543},
+            {"itemId": "collectables.menu.items.wands.two", "price": 7.5, "enumHash": -1431438550},
+            {"itemId": "collectables.menu.items.wands.three", "price": 7.5, "enumHash": 215580102},
+            {"itemId": "collectables.menu.items.wands.four", "price": 8, "enumHash": 2051310739},
+            {"itemId": "collectables.menu.items.wands.five", "price": 7.75, "enumHash": -2078537312},
+            {"itemId": "collectables.menu.items.wands.six", "price": 7.25, "enumHash": -920474102},
+            {"itemId": "collectables.menu.items.wands.seven", "price": 7.5, "enumHash": 1156167154},
+            {"itemId": "collectables.menu.items.wands.eight", "price": 7.75, "enumHash": 74495272},
+            {"itemId": "collectables.menu.items.wands.nine", "price": 7.75, "enumHash": -715051670},
+            {"itemId": "collectables.menu.items.wands.ten", "price": 8, "enumHash": -1333497650},
+            {"itemId": "collectables.menu.items.wands.page", "price": 8.5, "enumHash": -222405083},
+            {"itemId": "collectables.menu.items.wands.knight", "price": 9, "enumHash": 1782725274},
+            {"itemId": "collectables.menu.items.wands.queen", "price": 10, "enumHash": 1013011582},
+            {"itemId": "collectables.menu.items.wands.king", "price": 11, "enumHash": 110185544}
+        ]
+    },
+    {
+        "category": "pentacles",
+        "price": 287,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.pentacles.ace",     "price": 14.5,  "enumHash": 695579895},
+            {"itemId": "collectables.menu.items.pentacles.two",     "price": 9,     "enumHash": -796183751},
+            {"itemId": "collectables.menu.items.pentacles.three",   "price": 9.5,   "enumHash": 1025032918},
+            {"itemId": "collectables.menu.items.pentacles.four",    "price": 9.25,  "enumHash": -1405474507},
+            {"itemId": "collectables.menu.items.pentacles.five",    "price": 9.25,  "enumHash": 1530504034},
+            {"itemId": "collectables.menu.items.pentacles.six",     "price": 9,     "enumHash": 1159809525},
+            {"itemId": "collectables.menu.items.pentacles.seven",   "price": 9,     "enumHash": -2029903517},
+            {"itemId": "collectables.menu.items.pentacles.eight",   "price": 9,     "enumHash": -184379884},
+            {"itemId": "collectables.menu.items.pentacles.nine",    "price": 9.5,   "enumHash": 614214934},
+            {"itemId": "collectables.menu.items.pentacles.ten",     "price": 9.25,  "enumHash": -2139092482},
+            {"itemId": "collectables.menu.items.pentacles.page",    "price": 10,    "enumHash": 738218396},
+            {"itemId": "collectables.menu.items.pentacles.knight",  "price": 11,    "enumHash": -98060753},
+            {"itemId": "collectables.menu.items.pentacles.queen",   "price": 12,    "enumHash": -2053993543},
+            {"itemId": "collectables.menu.items.pentacles.king",    "price": 13.25, "enumHash": 620291574}
+        ]
+    },
+    {
+        "category": "bracelet",
+        "price": 271.5,
+        "itemsList": [
+            { "itemId": "collectables.menu.items.jewelry.sphrBracelet",      "price": 18,    "enumHash": 232063688 },
+            { "itemId": "collectables.menu.items.jewelry.dmndBngleBracelet", "price": 17,    "enumHash": 308818593 },
+            { "itemId": "collectables.menu.items.jewelry.gldBngleBracelet",  "price": 17,    "enumHash": 600432608 },
+            { "itemId": "collectables.menu.items.jewelry.sphrBngleBracelet", "price": 17.75, "enumHash": 1107778901 },
+            { "itemId": "collectables.menu.items.jewelry.pearlBracelet",     "price": 16.5,  "enumHash": 1645128206 },
+            { "itemId": "collectables.menu.items.jewelry.turquoiseBracelet", "price": 16.75, "enumHash": -1523419995 },
+            { "itemId": "collectables.menu.items.jewelry.carvedBracelet",    "price": 16.5,  "enumHash": -523530337 },
+            { "itemId": "collectables.menu.items.jewelry.grnetBracelet",     "price": 16.25, "enumHash": -313250059 }
+        ]
+    },
+    {
+        "category": "earring",
+        "price": 364.5,
+        "itemsList": [
+            { "itemId": "collectables.menu.items.jewelry.dropEarring",      "price": 15.5,  "enumHash": 324548078 },
+            { "itemId": "collectables.menu.items.jewelry.qnDmndEarring",    "price": 17.25, "enumHash": 333760707 },
+            { "itemId": "collectables.menu.items.jewelry.turqStudEarring",  "price": 15.75, "enumHash": 996250359 },
+            { "itemId": "collectables.menu.items.jewelry.whtDmndEarring",   "price": 18.5,  "enumHash": 1289018795 },
+            { "itemId": "collectables.menu.items.jewelry.elkToothEarring",  "price": 15.5,  "enumHash": 1466045897 },
+            { "itemId": "collectables.menu.items.jewelry.grnetPostEarring", "price": 16,    "enumHash": -1804185681 },
+            { "itemId": "collectables.menu.items.jewelry.emeraldEarring",   "price": 15.75, "enumHash": -1370882316 },
+            { "itemId": "collectables.menu.items.jewelry.rudyDnglEarring",  "price": 16.5,  "enumHash": -1350438989 },
+            { "itemId": "collectables.menu.items.jewelry.dmndPendtEarring", "price": 19.25, "enumHash": -1324394408 },
+            { "itemId": "collectables.menu.items.jewelry.pearlEarring",     "price": 16,    "enumHash": -644738616 },
+            { "itemId": "collectables.menu.items.jewelry.coralDnglEarring", "price": 16.25, "enumHash": -162108183 }
+        ]
+    },
+    {
+        "category": "necklace",
+        "price": 335,
+        "itemsList": [
+            { "itemId": "collectables.menu.items.jewelry.porcelainNecklace", "price": 18.75, "enumHash": 61850108 },
+            { "itemId": "collectables.menu.items.jewelry.slvrPearlNecklace", "price": 17.75, "enumHash": 205445966 },
+            { "itemId": "collectables.menu.items.jewelry.mthrPearlNecklace", "price": 18.25, "enumHash": 456059252 },
+            { "itemId": "collectables.menu.items.jewelry.gldCrossNecklace",  "price": 17.25, "enumHash": 575547207 },
+            { "itemId": "collectables.menu.items.jewelry.amethystNecklace",  "price": 18,    "enumHash": 686159610 },
+            { "itemId": "collectables.menu.items.jewelry.gldPearlNecklace",  "price": 18.5,  "enumHash": -1579131656 },
+            { "itemId": "collectables.menu.items.jewelry.gldPendtNecklace",  "price": 19.5,  "enumHash": -939330110 },
+            { "itemId": "collectables.menu.items.jewelry.topazNecklace",     "price": 18.75, "enumHash": -888745206 },
+            { "itemId": "collectables.menu.items.jewelry.blckPearlNecklace", "price": 20.75, "enumHash": -526980287 }
+        ]
+    },
+    {
+        "category": "ring",
+        "price": 378,
+        "itemsList": [
+            { "itemId": "collectables.menu.items.jewelry.coralRing",      "price": 16.75, "enumHash": 49516917 },
+            { "itemId": "collectables.menu.items.jewelry.persTurqRing",   "price": 16.5,  "enumHash": 289416445 },
+            { "itemId": "collectables.menu.items.jewelry.moonRing",       "price": 16.75, "enumHash": 319991179 },
+            { "itemId": "collectables.menu.items.jewelry.pearlRing",      "price": 16.75, "enumHash": 391412462 },
+            { "itemId": "collectables.menu.items.jewelry.topazRing",      "price": 17,    "enumHash": 1926912008 },
+            { "itemId": "collectables.menu.items.jewelry.frenchDmndRing", "price": 18.5,  "enumHash": -1893135121 },
+            { "itemId": "collectables.menu.items.jewelry.ylwgldDmndRing", "price": 17.75, "enumHash": -1461195441 },
+            { "itemId": "collectables.menu.items.jewelry.onyxRing",       "price": 16.5,  "enumHash": -1430911710 },
+            { "itemId": "collectables.menu.items.jewelry.emeraldRing",    "price": 16.5,  "enumHash": -836035669 },
+            { "itemId": "collectables.menu.items.jewelry.whtgldDmndRing", "price": 19.25, "enumHash": -288598209 },
+            { "itemId": "collectables.menu.items.jewelry.turquoiseRing",  "price": 16.75, "enumHash": -209370662 }
+        ]
+    },
+    {
+        "category": "bottle",
+        "price": 160.5,
+        "itemsList": [
+            { "itemId": "collectables.menu.items.bottle.tennWhiskey",    "price": 7.25,  "enumHash": 941442568 },
+            { "itemId": "collectables.menu.items.bottle.irishWhiskey",   "price": 10.25, "enumHash": 1135560775 },
+            { "itemId": "collectables.menu.items.bottle.scotchWhiskey",  "price": 10.5,  "enumHash": 1209263432 },
+            { "itemId": "collectables.menu.items.bottle.cyprusBrandy",   "price": 9,     "enumHash": 1465762285 },
+            { "itemId": "collectables.menu.items.bottle.plymouthGin",    "price": 9,     "enumHash": 1565126061 },
+            { "itemId": "collectables.menu.items.bottle.oldtomGin",      "price": 10.5,  "enumHash": 1603716279 },
+            { "itemId": "collectables.menu.items.bottle.caribRum",       "price": 7.75,  "enumHash": -897008046 },
+            { "itemId": "collectables.menu.items.bottle.cognac",         "price": 8.75,  "enumHash": -392829098 },
+            { "itemId": "collectables.menu.items.bottle.londryGin",      "price": 7.25,  "enumHash": -130873515 }
+        ]
+    },
+    {
+        "category": "egg",
+        "price": 182.5,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.egg.spoonbill", "price": 12.75,     "enumHash": 229697410},
+            {"itemId": "collectables.menu.items.egg.heron",     "price": 12.75,     "enumHash": 322658308},
+            {"itemId": "collectables.menu.items.egg.loon",      "price": 3.5,       "enumHash": 410290576},
+            {"itemId": "collectables.menu.items.egg.eagle",     "price": 14.75,     "enumHash": 742074887},
+            {"itemId": "collectables.menu.items.egg.vulture",   "price": 15,        "enumHash": 1053249385},
+            {"itemId": "collectables.menu.items.egg.hawk",      "price": 14.75,     "enumHash": 2060029625},
+            {"itemId": "collectables.menu.items.egg.egret",     "price": 12.5,      "enumHash": -1232280687},
+            {"itemId": "collectables.menu.items.egg.duck",      "price": 2.25,      "enumHash": -1117423291},
+            {"itemId": "collectables.menu.items.egg.goose",     "price": 3,         "enumHash": -158375659}
+        ]
+    },
+    {
+        "category": "arrowhead",
+        "price": 289,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.arrowhead.rough",        "price": 11.75, "enumHash": 261854063      },
+            {"itemId": "collectables.menu.items.arrowhead.splintered",   "price": 8.75,  "enumHash": 751981376      },
+            {"itemId": "collectables.menu.items.arrowhead.crude",        "price": 9.5,   "enumHash": 1063947084     },
+            {"itemId": "collectables.menu.items.arrowhead.chipped",      "price": 8.25,  "enumHash": 1546533744     },
+            {"itemId": "collectables.menu.items.arrowhead.feldspar",     "price": 13,    "enumHash": 1570512815     },
+            {"itemId": "collectables.menu.items.arrowhead.slate",        "price": 12,    "enumHash": -2023776602    },
+            {"itemId": "collectables.menu.items.arrowhead.bone",         "price": 12.5,  "enumHash": -1866466055    },
+            {"itemId": "collectables.menu.items.arrowhead.raw",          "price": 9,     "enumHash": -1850613113    },
+            {"itemId": "collectables.menu.items.arrowhead.obsidian",     "price": 17,    "enumHash": -1604348319    },
+            {"itemId": "collectables.menu.items.arrowhead.quartz",       "price": 16.25, "enumHash": -965972353     },
+            {"itemId": "collectables.menu.items.arrowhead.flint",        "price": 11.25, "enumHash": -909283963     },
+            {"itemId": "collectables.menu.items.arrowhead.agate",        "price": 15.25, "enumHash": -250719930     }
+        ]
+    },
+    {
+        "category": "heirlooms",
+        "price": 292.5,
+        "itemsList": [
+            { "itemId": "collectables.menu.items.heirloom.hairpinJade",       "price": 11.75, "enumHash": 147602269 },
+            { "itemId": "collectables.menu.items.heirloom.combCherrywood",    "price": 8.75,  "enumHash": 249916796 },
+            { "itemId": "collectables.menu.items.heirloom.brushEbony",        "price": 9,     "enumHash": 1006600695 },
+            { "itemId": "collectables.menu.items.heirloom.hairpinMetal",      "price": 10.5,  "enumHash": 1204853609 },
+            { "itemId": "collectables.menu.items.heirloom.hairpinWooden",     "price": 10,    "enumHash": 1217599018 },
+            { "itemId": "collectables.menu.items.heirloom.combBoxwood",       "price": 8.75,  "enumHash": 1416504149 },
+            { "itemId": "collectables.menu.items.heirloom.brushGoathair",     "price": 8.5,   "enumHash": 1742487931 },
+            { "itemId": "collectables.menu.items.heirloom.hairpinEbony",      "price": 12.25, "enumHash": 1979910825 },
+            { "itemId": "collectables.menu.items.heirloom.hairpinIvory",      "price": 13,    "enumHash": -2058309720 },
+            { "itemId": "collectables.menu.items.heirloom.brushRosewood",     "price": 8,     "enumHash": -1888442693 },
+            { "itemId": "collectables.menu.items.heirloom.combTortoiseshell", "price": 8.25,  "enumHash": -1868057871 },
+            { "itemId": "collectables.menu.items.heirloom.combIvory",         "price": 9.75,  "enumHash": -1763726091 },
+            { "itemId": "collectables.menu.items.heirloom.brushHorsehair",    "price": 9.25,  "enumHash": -1631158895 },
+            { "itemId": "collectables.menu.items.heirloom.brushBoar",         "price": 9,     "enumHash": -753628968 },
+            { "itemId": "collectables.menu.items.heirloom.brushRosewoodNg",   "price": 9.5,   "enumHash": -27315089 }
+        ]
+    },
+    {
+        "category": "coin",
+        "price": 540,
+        "itemsList": [
+            {"itemId": "collectables.menu.items.coin.1800GldQtr",   "price": 21,        "enumHash": 285783511,      "icon": "①"},
+            {"itemId": "collectables.menu.items.coin.1798SlvDlr",   "price": 18.25,     "enumHash": 442429651,      "icon": "②"},
+            {"itemId": "collectables.menu.items.coin.1787CentTkn",  "price": 18,        "enumHash": 1030821510,     "icon": "③"},
+            {"itemId": "collectables.menu.items.coin.1794SlvDlr",   "price": 19,        "enumHash": 1328162258,     "icon": "④"},
+            {"itemId": "collectables.menu.items.coin.1700NyTkn",    "price": 20.25,     "enumHash": 1496994240,     "icon": "⑤"},
+            {"itemId": "collectables.menu.items.coin.1800FiveDlr",  "price": 17.75,     "enumHash": 1640145676,     "icon": "⑥"},
+            {"itemId": "collectables.menu.items.coin.1792Qtr",      "price": 14.5,      "enumHash": 2116252151,     "icon": "⑦"},
+            {"itemId": "collectables.menu.items.coin.1800GldDlr",   "price": 22,        "enumHash": -1982102297,    "icon": "⑧"},
+            {"itemId": "collectables.menu.items.coin.1792Nickel",   "price": 14.25,     "enumHash": -1884965711,    "icon": "⑨"},
+            {"itemId": "collectables.menu.items.coin.1796HlfPny",   "price": 14.75,     "enumHash": -1867083042,    "icon": "⑩"},
+            {"itemId": "collectables.menu.items.coin.1795HlfEag",   "price": 15,        "enumHash": -1841900790,    "icon": "⑪"},
+            {"itemId": "collectables.menu.items.coin.1797GldEag",   "price": 21.25,     "enumHash": -1323673307,    "icon": "⑫"},
+            {"itemId": "collectables.menu.items.coin.1792LibQtr",   "price": 20.75,     "enumHash": -753018368,     "icon": "⑬"},
+            {"itemId": "collectables.menu.items.coin.1800HlfDime",  "price": 18.5,      "enumHash": -625323392,     "icon": "⑭"},
+            {"itemId": "collectables.menu.items.coin.1789Pny",      "price": 14.75,     "enumHash": -329116887,     "icon": "⑮"}
+        ],
+        "enumHash": -1
+    }
+]

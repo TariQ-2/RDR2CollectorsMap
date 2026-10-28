@@ -1,19 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-.idea/
-desktop.ini
-node_modules/
+*.pem
 
-# Screenshot stuff.
-_long/
-_short/
-_manifest.json
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Used to make development easier.
-cycles_update/
-fme/
-!assets/images/fme
-rdo/
+# env files (can opt-in for committing if needed)
+.env*
 
-# Remove map tiles from Github
-assets/maps/jpg
-assets/maps/webp
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# local build checks
+/build-check.log
+next-env.d.ts
+.log

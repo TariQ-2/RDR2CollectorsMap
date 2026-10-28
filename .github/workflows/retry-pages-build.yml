@@ -1,0 +1,62 @@
+name: Retry failed Pages build
+
+on:
+  schedule:
+    - cron: "26 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Request a rebuild even if the last build succeeded (token test)
+        type: boolean
+        default: false
+
+permissions:
+  pages: write
+  contents: read
+
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Rebuild Pages if last build errored
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          if ! latest=$(gh api "repos/$GH_REPO/pages/builds/latest" 2>&1); then
+            if grep -q "HTTP 404" <<<"$latest"; then
+              echo "Pages build API returned 404"
+              exit 1
+            fi
+            echo "Could not fetch latest Pages build; skipping this run: $latest"
+            exit 0
+          fi
+          status=$(jq -r .status <<<"$latest")
+          echo "Latest Pages build status: $status"
+          if [ "$FORCE" = "true" ]; then
+            echo "Force requested; rebuilding regardless of status."
+          elif [ "$status" = "errored" ]; then
+            jq -r '.error.message // empty' <<<"$latest"
+          elif [ "$status" = "building" ] || [ "$status" = "queued" ]; then
+            age=$(( $(date +%s) - $(date -d "$(jq -r .created_at <<<"$latest")" +%s) ))
+            if [ "$age" -lt 900 ]; then
+              exit 0
+            fi
+            echo "Build stuck in '$status' for $((age / 60)) minutes; treating as failed."
+          else
+            exit 0
+          fi
+
+          sha=$(jq -r .commit <<<"$latest")
+
+          attempts=$(gh api "repos/$GH_REPO/pages/builds?per_page=30" \
+            --jq "[.[] | select(.commit==\"$sha\" and .status!=\"built\")] | length")
+          if [ "$FORCE" != "true" ] && [ "$attempts" -ge 3 ]; then
+            echo "Commit $sha already failed $attempts times; giving up until a new commit or a forced run."
+            exit 1
+          fi
+
+          echo "Requesting Pages rebuild for $sha (failed builds so far: $attempts)"
+          gh api -X POST "repos/$GH_REPO/pages/builds"

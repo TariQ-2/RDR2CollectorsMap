@@ -1,0 +1,371 @@
+﻿@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark {
+    &:is([data-scheme="dark"] *) {
+        @slot;
+    }
+}
+
+@font-face {
+    font-family: Hapna;
+    src: url('/RDR2CollectorsMap/assets/fonts/hapna.woff2') format('woff2'),
+        url('/RDR2CollectorsMap/assets/fonts/hapna.woff') format('woff'),
+        url('/RDR2CollectorsMap/assets/fonts/hapna.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: RDRLino;
+  src: url('/RDR2CollectorsMap/assets/fonts/RDRLino-Regular.woff2') format('woff2'),
+       url('/RDR2CollectorsMap/assets/fonts/RDRLino-Regular.woff') format('woff'),
+       url('/RDR2CollectorsMap/assets/fonts/RDRLino-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: RDRCatalogueBold;
+  src: url('/RDR2CollectorsMap/assets/fonts/RDRCatalogueBold-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+    --default-content-font: Hapna;
+    --default-title-font: RDRLino;
+    --content-font: var(--default-content-font), serif;
+    --title-font: var(--default-title-font), serif;
+    --button-font: RDRCatalogueBold, var(--content-font), serif;
+    --ctrl-meta-key: 'Ctrl';
+
+    --radius: 0.625rem;
+    --success: oklch(0.72 0.15 145);
+    --success-foreground: oklch(0.15 0.006 70);
+    --warning: oklch(0.78 0.14 75);
+    --warning-foreground: oklch(0.18 0.006 70);
+    --info: oklch(0.72 0.12 230);
+    --info-foreground: oklch(0.15 0.006 70);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+
+  --color-progress-empty: var(--muted-foreground);
+  --color-progress-partial: var(--foreground);
+  --color-progress-complete: var(--success);
+
+  --shadow-panel:   0 1px 2px oklch(0 0 0 / 0.25), 0 4px 12px oklch(0 0 0 / 0.15);
+  --shadow-toast:   0 4px 12px oklch(0 0 0 / 0.35), 0 1px 3px oklch(0 0 0 / 0.2);
+  --shadow-popover: 0 8px 24px oklch(0 0 0 / 0.4), 0 2px 6px oklch(0 0 0 / 0.25);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out:   cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+
+  --row-h-compact: 32px;
+  --row-h-base:    40px;
+  --row-h-loose:   48px;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans:    var(--content-font);
+  --font-content: var(--content-font);
+  --font-title:   var(--title-font);
+  --font-button:  var(--button-font);
+
+  --color-rdr-bg:        #d2b790;
+  --color-rdr-dark:      #222222;
+  --color-danger-rdr:    #f95050;
+  --color-success-rdr:   #16c368;
+  --color-primary-rdr:   #12a4f3;
+}
+
+@layer base {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: var(--background);
+        color: var(--foreground);
+        font-family: var(--content-font);
+        line-height: 1.42857143;
+        text-rendering: optimizeLegibility;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #aaa;
+        border-radius: 2px;
+    }
+}
+
+@layer components {
+    .leaflet-container {
+        @apply bg-background text-foreground;
+        font-family: var(--content-font);
+    }
+
+    .leaflet-bar,
+    .leaflet-control-layers {
+        @apply bg-card text-card-foreground border border-border
+               shadow-md overflow-hidden;
+        border-radius: var(--radius-sm) !important;
+    }
+
+    .leaflet-bar a {
+        @apply text-card-foreground border-b border-border
+               transition-colors duration-150;
+        background-color: var(--card) !important;
+        color: var(--card-foreground) !important;
+        border-bottom-color: var(--border) !important;
+    }
+
+    .leaflet-bar a:hover,
+    .leaflet-bar a:focus {
+        background-color: var(--accent) !important;
+        color: var(--accent-foreground) !important;
+    }
+
+    .leaflet-bar a.leaflet-disabled {
+        background-color: var(--muted) !important;
+        color: var(--muted-foreground) !important;
+        opacity: 0.5;
+    }
+
+    .leaflet-control-layers-expanded {
+        @apply p-2;
+        background-color: var(--card) !important;
+        color: var(--card-foreground) !important;
+    }
+
+    .leaflet-control-layers label {
+        @apply text-xs cursor-pointer;
+        color: var(--card-foreground) !important;
+    }
+
+    .leaflet-control-layers-separator {
+        border-top: 1px solid var(--border) !important;
+    }
+
+    .leaflet-control-attribution {
+        @apply text-[10px];
+        background-color: color-mix(in oklch, var(--background) 85%, transparent) !important;
+        color: var(--muted-foreground) !important;
+        border-top-left-radius: var(--radius-sm);
+    }
+
+    .leaflet-control-attribution a {
+        color: var(--primary) !important;
+        text-decoration: none;
+    }
+
+    .leaflet-control-attribution a:hover {
+        text-decoration: underline;
+    }
+
+    .leaflet-popup-content-wrapper {
+        @apply shadow-xl;
+        background-color: var(--popover) !important;
+        color: var(--popover-foreground) !important;
+        border: 1px solid var(--border) !important;
+        border-radius: 10px !important;
+        padding: 0 !important;
+    }
+
+    .leaflet-popup-content {
+        @apply m-3;
+        color: var(--popover-foreground) !important;
+        font-family: var(--content-font);
+    }
+
+    .leaflet-popup-tip {
+        background-color: var(--popover) !important;
+        border: 1px solid var(--border) !important;
+        box-shadow: none !important;
+    }
+
+    .leaflet-container a.leaflet-popup-close-button {
+        @apply text-lg leading-6 transition-colors duration-150;
+        color: var(--muted-foreground) !important;
+        width: 28px !important;
+        height: 28px !important;
+        padding: 0 !important;
+        top: 4px !important;
+        right: 4px !important;
+        border-radius: var(--radius-sm) !important;
+    }
+
+    .leaflet-container a.leaflet-popup-close-button:hover,
+    .leaflet-container a.leaflet-popup-close-button:focus {
+        background-color: var(--accent) !important;
+        color: var(--accent-foreground) !important;
+    }
+
+    .leaflet-tooltip {
+        @apply shadow-md text-xs px-2 py-1;
+        background-color: var(--popover) !important;
+        color: var(--popover-foreground) !important;
+        border: 1px solid var(--border) !important;
+        border-radius: var(--radius-sm) !important;
+        font-family: var(--content-font);
+    }
+
+    .leaflet-tooltip-top::before    { border-top-color:    var(--border) !important; }
+    .leaflet-tooltip-bottom::before { border-bottom-color: var(--border) !important; }
+    .leaflet-tooltip-left::before   { border-left-color:   var(--border) !important; }
+    .leaflet-tooltip-right::before  { border-right-color:  var(--border) !important; }
+
+    .leaflet-container :focus-visible {
+        outline: 2px solid var(--ring) !important;
+        outline-offset: 2px;
+    }
+
+    .leaflet-popup-content ::-webkit-scrollbar {
+        width: 6px;
+    }
+    .leaflet-popup-content ::-webkit-scrollbar-thumb {
+        background-color: var(--muted-foreground);
+        border-radius: 9999px;
+    }
+    .leaflet-popup-content ::-webkit-scrollbar-track {
+        background-color: var(--muted);
+    }
+
+    .leaflet-marker-icon {
+        transition: filter 0.2s ease, z-index 0s;
+        z-index: 100;
+    }
+    .leaflet-marker-icon:hover {
+        z-index: 9999 !important;
+        filter: brightness(1.15) drop-shadow(0 4px 8px rgba(0,0,0,0.4));
+    }
+    .rdo-marker-inner {
+        transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        transform-origin: bottom center;
+    }
+
+    .leaflet-marker-icon:hover .rdo-marker-inner {
+        transform: scale(1.15);
+    }
+}
+
+@layer utilities {
+    [data-cat="fossils"] img { filter: hue-rotate(0deg) saturate(0.4); }
+    [data-cat="tarot"]   img { filter: hue-rotate(280deg) saturate(0.6); }
+    [data-cat="jewelry"] img { filter: hue-rotate(45deg) saturate(0.7); }
+    [data-cat="flowers"] img { filter: hue-rotate(120deg) saturate(0.5); }
+    [data-cat="coins"]   img { filter: hue-rotate(30deg) saturate(0.8); }
+}
+
+[data-theme="normal"] {
+  color-scheme: dark;
+
+  --radius: 0.625rem;
+
+  --background:             oklch(0.18 0.006 70);
+  --foreground:             oklch(0.82 0.04 75);
+  --card:                   oklch(0.22 0.006 70);
+  --card-foreground:        oklch(0.82 0.04 75);
+  --popover:                oklch(0.22 0.006 70);
+  --popover-foreground:     oklch(0.82 0.04 75);
+  --primary:                oklch(0.74 0.09 78);
+  --primary-foreground:     oklch(0.18 0.006 70);
+  --secondary:              oklch(0.26 0.006 70);
+  --secondary-foreground:   oklch(0.82 0.04 75);
+  --muted:                  oklch(0.26 0.006 70);
+  --muted-foreground:       oklch(0.58 0.03 75);
+  --accent:                 oklch(0.30 0.008 70);
+  --accent-foreground:      oklch(0.92 0.04 78);
+  --destructive:            oklch(0.62 0.20 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border:                 oklch(0.82 0.04 75 / 12%);
+  --input:                  oklch(0.82 0.04 75 / 16%);
+  --ring:                   oklch(0.74 0.09 78 / 55%);
+
+  --success:                oklch(0.72 0.15 145);
+  --success-foreground:     oklch(0.15 0.006 70);
+  --warning:                oklch(0.78 0.14 75);
+  --warning-foreground:     oklch(0.18 0.006 70);
+  --info:                   oklch(0.72 0.12 230);
+  --info-foreground:        oklch(0.15 0.006 70);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --radius: 0.625rem;
+
+  --background:             oklch(0.14 0.005 70);
+  --foreground:             oklch(0.94 0.02 80);
+  --card:                   oklch(0.19 0.006 70);
+  --card-foreground:        oklch(0.94 0.02 80);
+  --popover:                oklch(0.19 0.006 70);
+  --popover-foreground:     oklch(0.94 0.02 80);
+  --primary:                oklch(0.79 0.13 82);
+  --primary-foreground:     oklch(0.18 0.02 80);
+  --secondary:              oklch(0.24 0.006 70);
+  --secondary-foreground:   oklch(0.94 0.02 80);
+  --muted:                  oklch(0.24 0.006 70);
+  --muted-foreground:       oklch(0.68 0.01 80);
+  --accent:                 oklch(0.28 0.01 80);
+  --accent-foreground:      oklch(0.94 0.02 80);
+  --destructive:            oklch(0.62 0.20 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border:                 oklch(1 0 0 / 14%);
+  --input:                  oklch(1 0 0 / 18%);
+  --ring:                   oklch(0.79 0.13 82 / 55%);
+
+  --success:                oklch(0.75 0.16 145);
+  --success-foreground:     oklch(0.12 0.005 70);
+  --warning:                oklch(0.82 0.15 80);
+  --warning-foreground:     oklch(0.14 0.005 70);
+  --info:                   oklch(0.75 0.13 230);
+  --info-foreground:        oklch(0.12 0.005 70);
+}
