@@ -3,9 +3,17 @@
 <p align="center">
   A map for Red Dead Online. Find all collectibles in one place.
 </p>
+
+<p align="center">
+  <strong>Notice:</strong> This project is a modern frontend rewrite based on the original <a href="https://github.com/jeanropke/RDR2CollectorsMap">RDR2 Collectors Map created by jeanropke</a>. 
+  <br/>
+  All original assets, icons, fonts, and data belong to them. I only rebuilt the interface to add a modern UI/UX, Arabic support, and automated data syncing.
+</p>
+
 <p align="center">
   <img src="public/preview.png" alt="RDR2 Collectors Map Preview" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
 </p>
+
 <p align="center">
   <a href="https://TariQ-2.github.io/RDR2CollectorsMap/"><strong>Live Website</strong></a>
 </p>
@@ -30,6 +38,5 @@
   <img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white" alt="pnpm" />
   <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages" />
 </p>
-
 
 ---
