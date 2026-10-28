@@ -1,11 +1,11 @@
 'use client';
 
 import { useEffect, forwardRef } from 'react';
+import Link from 'next/link';
 import { AlertTriangle, RotateCcw, Home } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslate } from '@/i18n';
 import type { LucideProps } from 'lucide-react';
-import { useRouter } from 'next/navigation';
 
 export const Github = forwardRef<SVGSVGElement, LucideProps>(function Github({ size = 24, color = 'currentColor', strokeWidth = 2, className, ...rest }, ref) {
     return (
@@ -31,7 +31,6 @@ export const Github = forwardRef<SVGSVGElement, LucideProps>(function Github({ s
 
 export default function Error({ error, reset }: { error: Error & { digest?: string }; reset: () => void; }) {
     const t = useTranslate();
-    const router = useRouter();
 
     useEffect(() => {
         console.error('[App Error]', error);
@@ -87,10 +86,12 @@ ${error.stack || 'N/A'}
                     {t('general.error.tryAgain')}
                 </Button>
 
-                <Button onClick={() => router.replace('/')} variant="outline">
-                    <Home className="me-2 h-4 w-4" />
-                    {t('general.error.goHome')}
-                </Button>
+                <Link href="/">
+                    <Button variant="outline">
+                        <Home className="me-2 h-4 w-4" />
+                        {t('general.error.goHome')}
+                    </Button>
+                </Link>
 
                 <Button onClick={handleReportIssue} variant="secondary">
                     <Github className="me-2 h-4 w-4" />

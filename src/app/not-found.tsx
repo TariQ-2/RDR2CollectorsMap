@@ -3,11 +3,10 @@
 import { Compass } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslate } from '@/i18n';
-import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 export default function NotFound() {
     const t = useTranslate();
-    const router = useRouter();
 
     return (
         <div className="flex min-h-screen w-full flex-1 flex-col items-center justify-center bg-background p-4 text-center">
@@ -27,13 +26,11 @@ export default function NotFound() {
                 {t('general.404.description')}
             </p>
 
-            <Button
-                onClick={() => router.replace('/')}
-                variant="default"
-                className="h-10 px-6 font-semibold"
-            >
-                {t('general.404.goHome')}
-            </Button>
+            <Link href="/">
+                <Button variant="default" className="h-10 px-6 font-semibold">
+                    {t('general.404.goHome')}
+                </Button>
+            </Link>
         </div>
     );
 }
