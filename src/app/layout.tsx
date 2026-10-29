@@ -34,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode}) {
     return (
         <html lang="en" dir="ltr" className="rdo-ui" suppressHydrationWarning>
             <head>
+                <meta name="google-site-verification" content="xsBum_vzMuIOqaMLjQjCrNNaIj6liGub9AbqckpJnvM" />
                 <script dangerouslySetInnerHTML={{ __html: LANGUAGE_BOOT_SCRIPT }}/>
                 <script dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
             </head>
